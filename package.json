@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/test.js"
+    "start": "node dist/test.js",
+    "postinstall": "npm run build"
   },
   "devDependencies": {
     "@types/node": "^18.11.18",
